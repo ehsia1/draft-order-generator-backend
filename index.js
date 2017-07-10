@@ -59,8 +59,11 @@ app.get('/divisions-completely-random', function(req, res) {
     var object = {east: east, west: west};
     res.status(200).send(object);
   }
-})
+});
 
+//get leagues function
+//add league post request
+//delete league post request
 
 const port = 6095;
 app.listen(port, function () {
